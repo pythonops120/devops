@@ -19,7 +19,7 @@ resource "aws_instance" "fin-mobile-frontend" {
 
   tags = {
     Name = "Finance_Front_End",
-    Cost_Center = var.cost_center,
+    Call_Center = var.call_center,
     Admin_Contact = var.admin_group
   }
 }

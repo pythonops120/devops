@@ -11,7 +11,7 @@ variable "target_region" {
 }
 
 
-variable "cost_center" {
+variable "call_center" {
   description = "Define the target region for the deployment."
   type        = string
   default     = "Finance"
